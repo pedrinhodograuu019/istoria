@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em Busca do Coração</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/pintura-ilustracao-digitala-cidade-e-moderna-autum_982322-132974" alt="Imagem de uma cidade moderna">
+            <p>Você está em uma cidade vibrante e decide que é hora de encontrar alguém especial para compartilhar sua vida. Onde você começa sua busca?</p>
+            <button class="btn-proximo" data-proximo="1">Encontros em Cafés</button>
+            <button class="btn-proximo" data-proximo="2">Eventos Sociais</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide começar pelos cafés locais, onde as conversas podem fluir naturalmente. Qual café você vai visitar?</p>
+            <button class="btn-proximo" data-proximo="3">Café Aconchegante</button>
+            <button class="btn-proximo" data-proximo="4">Café Moderno</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você opta por eventos sociais, onde a chance de conhecer novas pessoas é maior. Qual tipo de evento você escolhe?</p>
+            <button class="btn-proximo" data-proximo="5">Festa de Aniversário</button>
+            <button class="btn-proximo" data-proximo="6">Evento de Networking</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No Café Aconchegante, você conhece alguém interessante que parece ter muitos interesses em comum com você.</p>
+            <button class="btn-proximo" data-proximo="7">Continuar conversando com essa pessoa</button>
+            <button class="btn-proximo" data-proximo="8">Trocar contatos e procurar em outro lugar</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>No Café Moderno, você encontra um ambiente animado, mas as conversas são mais superficiais.</p>
+            <button class="btn-proximo" data-proximo="8">Trocar contatos e procurar em outro lugar</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Na festa de aniversário, você encontra uma pessoa charmosa, mas a festa está muito movimentada para uma conversa aprofundada.</p>
+            <button class="btn-proximo" data-proximo="9">Trocar contatos e convidar para um café tranquilo</button>
+            <button class="btn-proximo" data-proximo="10">Esperar outra oportunidade para conversar</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>No evento de networking, você conhece muitas pessoas, mas o ambiente é mais voltado para negócios do que para relacionamentos pessoais.</p>
+            <button class="btn-proximo" data-proximo="10">Esperar outra oportunidade para conversar</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você decide continuar conversando e descobre uma conexão verdadeira. Após alguns encontros, vocês se tornam inseparáveis.</p>
+            <img src="img/cenario-passo7-casal-feliz.png" alt="Imagem de um casal feliz">
+            <p>Você encontrou alguém especial e está pronto para começar uma nova jornada juntos.</p>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você troca contatos, mas não consegue se conectar com ninguém que realmente desperte seu interesse. Talvez seja hora de tentar algo novo.</p>
+            <button class="btn-proximo" data-proximo="11">Voltar e explorar outra opção</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Você troca contatos com a pessoa charmosa da festa e marca um café tranquilo. Após alguns encontros, vocês descobrem uma conexão verdadeira e começam um relacionamento.</p>
+            <img src="img/cenario-passo9-casal-feliz.png" alt="Imagem de um casal feliz">
+            <p>Você encontrou alguém especial e está pronto para uma nova jornada.</p>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Esperar outra oportunidade não traz muitos resultados. Talvez seja melhor explorar novas opções e eventos.</p>
+            <button class="btn-proximo" data-proximo="11">Voltar e explorar outra opção</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Você decide voltar e explorar outras opções. Esta jornada pode ter várias reviravoltas, mas cada passo é uma oportunidade para encontrar alguém especial.</p>
+            <button class="btn-proximo" data-proximo="1">Voltar para Cafés</button>
+            <button class="btn-proximo" data-proximo="2">Voltar para Eventos Sociais</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
